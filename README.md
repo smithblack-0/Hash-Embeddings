@@ -22,7 +22,7 @@ pip install -r requirements.txt
 If you only want to use the hashembedding:
 
 ```python
-from hashembed import HashEmbedding
+from src.hashembed import HashEmbedding
 ```
 
 ## Evaluate Hash Embedding

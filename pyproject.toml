@@ -21,4 +21,3 @@ keywords = [
 
 dependencies = ["torch","numpy", "tqdm"]
 dynamic = ["version", "description"]
-requires_python = ">=3.8"
