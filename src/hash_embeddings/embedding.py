@@ -27,7 +27,7 @@ class HashFamily():
             raise ValueError("p (moduler) should be >> m (buckets)")
 
         self.bins = bins
-        self.moduler = moduler if moduler else self._next_prime(np.random.randint(self.bins + 1, 2**32))
+        self.moduler = moduler if moduler else self._next_prime(np.random.randint(self.bins + 1, 2**31))
         self.mask_zero = mask_zero
 
         # do not allow same a and b, as it could mean shifted hashes
