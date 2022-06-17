@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 
 [project]
-name = "Hash-Embeddings"
+name = "hash_embeddings"
 authors = [
     {name = "YannDubs"}
 ]
