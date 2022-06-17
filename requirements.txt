@@ -1,3 +1,2 @@
 numpy
 tqdm
-git://github.com/YannDubs/torchsample.git
